@@ -42,8 +42,7 @@ def logic(text):
         exit()
 
 def full_list_print():
-    path = 'dict.txt'
-    data = open(path, 'r', encoding='utf-8')
+    data = open('dict.txt', 'r', encoding='utf-8')
     
     while True:
         line = data.readline()
