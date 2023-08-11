@@ -31,15 +31,15 @@ def logic(text):
         full_list_print()
     elif text == 'add':
         add_data()
-    elif text ==  'exit':
-        exit()
+    elif text =='find':
+        find_cont()
     elif text == 'del':
         delete_cont()
     elif text == 'edit':
         edit_cont()
     else:
-        text =='find'
-        find_cont()
+        text ==  'exit'
+        exit()
 
 def full_list_print():
     path = 'dict.txt'
